@@ -4,7 +4,7 @@ import { Jumbotron, Container, Col, Form, Button, Card, CardColumns } from 'reac
 // Import useMutation hook
 import { useMutation } from '@apollo/react-hooks';
 
-import { SAVE_BOOK } from '../utils/mutations';
+import { SAVE_BOOK } from '../utils/mutation';
 import { saveBookIds, getSavedBookIds } from '../utils/localStorage';
 
 import Auth from '../utils/auth';
@@ -35,7 +35,7 @@ const SearchBooks = () => {
     }
 
     try {
-      const response = await searchGoogleBooks(searchInput);
+      const response = await fetch(`https://www.googleapis.com/books/v1/volumes?q=${searchInput}`);
 
       if (!response.ok) {
         throw new Error('something went wrong!');

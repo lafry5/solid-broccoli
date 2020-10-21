@@ -1,3 +1,4 @@
+import gql from "graphql-tag";
 //This is on the front end!!!
 
 // The stuff you need to use on the Front End
