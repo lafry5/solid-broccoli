@@ -1,11 +1,11 @@
 # SOCIAL NETWORK README File
 
-User Story
+# User Story
 AS AN avid reader
 I WANT to search for new books to read
 SO THAT I can keep a list of books to purchase
 
-Acceptance Criteria
+# Acceptance Criteria
 GIVEN a book search engine
 WHEN I load the search engine
 THEN I am presented with a menu with the options Search for Books and Login/Signup and an input field to search for books and a submit button
@@ -40,7 +40,7 @@ Repository Link: https://github.com/lafry5/solid-broccoli
 
 
 Setup:
-    Ensure that all files are located in the root folder, that Mongoose is running, run npmn install in the Develop folder to install all the npm packages, then run npm start.
+    Ensure that all files are located in the root folder, that Mongoose is running, run npm install in the Develop folder to install all the npm packages, then run npm start.
 
 
 Support:
